@@ -9,4 +9,12 @@ class Todo {
         this.end=end;
         this.completed=completed;
     }
+
+    toggleComplete(){
+        this.completed=this.completed==="complete"?"incomplete": "complete";
+    }
+
+    update(updates){
+        Object.assign(this,updates);
+    }
 }
