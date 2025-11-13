@@ -20,3 +20,5 @@ class ToDoApp {
         this.storage.editProject(projectName,updates)
     }
 }
+
+export default ToDoApp;

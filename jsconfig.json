@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",        // Modern JS features
+    "module": "ESNext",     // ES module support
+    "checkJs": true,        // Enable type checking for JS
+    "baseUrl": "src"        // Treat src as root for imports
+  },
+  "include": ["src/**/*"],  // Include all files in src
+  "exclude": ["node_modules"] // Ignore node_modules
+}
