@@ -1,7 +1,7 @@
-import storage from './Storage.js';
-import ToDoApp from './toDoApp.js';
-import Project from './project.js';
-import Todo from './todo.js';
+import storage from './data/Storage';
+import ToDoApp from './data/toDoApp';
+import Project from './data/project';
+import Todo from './data/todo.js';
 
 const app = new ToDoApp(storage);
 
